@@ -1,0 +1,33 @@
+# build output
+bin/
+obj/
+*.user
+.vs/
+.vscode/
+
+# Python / Blender
+__pycache__/
+*.pyc
+*.blend1
+
+# game data and generated working files (never commit game assets)
+*.bfres
+*.cidb
+*.sarc
+*.zs
+*.dae
+_cidb/
+_cidb_geometry/
+*.collision.obj
+*.collision.mtl
+*.collision.blender.obj
+*.collision.blender.mtl
+*.bake.obj
+*.las_collision.json
+*.zip
+*.mp4
+
+# release builds (attach to GitHub Releases, don't commit)
+publish/
+release/
+*.pdb
